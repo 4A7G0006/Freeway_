@@ -13,7 +13,7 @@ CWB為交通部中央氣象局 網站開放資料下載
 上交通部註冊可以獲得API授權碼 貼入code中Api_Key的地方 即可自動下載所有檔案
 
 
-tisvcloud_data :
+tisvcloud_data.py :
 
 高速公路局即時資料庫資料下載
 
@@ -24,7 +24,7 @@ tisvcloud_data :
 直接執行 即可下載所有即時資料(xml檔案)
 
 
-tisvcloud_TDCS :
+tisvcloud_TDCS.py :
 
 執行後會自動下載高公局的TDCS歷史資料
 
