@@ -32,3 +32,5 @@ tisvcloud_TDCS.py :
 
 TDCS 歷史資料網站 : https://tisvcloud.freeway.gov.tw/history/TDCS
 
+
+#此程式碼目前都依照政府資料端網站實做
