@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-Api_Key = "CWB-C965D761-301A-4953-8CBF-EC85EC685F16"
+Api_Key = ""    # 請到https://opendata.cwb.gov.tw/userLogin 登入取得API授權碼後 填入
 
 
 def create_folder(main_data, save_folder):
