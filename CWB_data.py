@@ -34,9 +34,9 @@ def catch_html(path, data_topic, data_page):
             for i in closer:
                 word = i.text.split(' ')
                 if len(word) > 1:
-                    if word[1][0] == 'J':
+                    if word[1][0] == 'J': # 判斷JSON格式
                         data.append(word[0] + " " + word[1][0:4])
-                    elif word[1][0] == 'Z' or word[1][0] == 'C' or word[1][0] == 'K' or word[1][0] == 'X':
+                    elif word[1][0] == 'Z' or word[1][0] == 'C' or word[1][0] == 'K' or word[1][0] == 'X': # 判斷ZIP,CAP,KMZ,XML格式 如缺格式待補充
                         data.append(word[0] + " " + word[1][0:3])
                     else:
                         data.append(i.text)
