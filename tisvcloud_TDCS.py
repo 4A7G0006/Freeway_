@@ -126,7 +126,7 @@ def get_file(path):
             print(link)
             print("---" + gz_files)
             try:
-                wget.download(link, path + '\\' + link_all[n] + '\\' + gz_files)
+                wget.download(link, path + '\\' + file_all[n] + '\\' + gz_files)
                 print("    Pass")
             except:
                 print("    Failed")
