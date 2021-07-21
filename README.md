@@ -26,11 +26,18 @@ tisvcloud_data.py :
 
 tisvcloud_TDCS.py :
 
-執行後會自動下載高公局的TDCS歷史資料
+自動下載高公局的TDCS歷史資料
 
 資料手冊 : https://tisvcloud.freeway.gov.tw/Sites/fyti/doc/TDCS%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Av33.pdf
 
 TDCS 歷史資料網站 : https://tisvcloud.freeway.gov.tw/history/TDCS
 
+history weather.py:
+
+將歷史天氣檔案下載下來
+
+資料來源:https://e-service.cwb.gov.tw/HistoryDataQuery/
+
+將檔案依照六都下載 時間與地點可修改程式設定 
 
 #此程式碼目前都依照政府資料端網站實做
