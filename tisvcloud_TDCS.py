@@ -9,6 +9,7 @@ import shutil
 檔案較大下載大約需花上三天
 解壓縮的部分也順便寫好
 總共跑完大約需花上一個多星期不等--
+總檔案約 1T多
 '''
 #------------------------------------
 def makedir_s(names):
@@ -176,7 +177,7 @@ def gz_file_ex(path):
                 print(deep + " File move exactly")
         if os.path.exists(deep_path):
             shutil.rmtree(deep_path)
-        print("remove folder:" + deep_path)
+            print("remove folder:" + deep_path)
 
 
 if __name__ == '__main__':  # 主程式在這
