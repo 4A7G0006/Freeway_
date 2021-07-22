@@ -174,7 +174,8 @@ def gz_file_ex(path):
             if not os.path.exists(ex_path + '\\' + deep):
                 shutil.move(deep_path + '\\' + deep, ex_path + '\\' + deep)
                 print(deep + " File move exactly")
-        shutil.rmtree(deep_path)
+        if os.path.exists(deep_path):
+            shutil.rmtree(deep_path)
         print("remove folder:" + deep_path)
 
 
