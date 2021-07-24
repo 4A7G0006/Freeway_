@@ -178,7 +178,7 @@ def gz_file_ex(path):
         if os.path.exists(deep_path):
             shutil.rmtree(deep_path)
             print("remove folder:" + deep_path)
-
+    print("Finish ---------------")
 
 if __name__ == '__main__':  # 主程式在這
     name = "F:\\Data"  # input folder name or folder path
